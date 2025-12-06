@@ -39,7 +39,7 @@ async def give_score():
         # 3. Prompt Engineering (Tari Lenggang Nyai)
         prompt_text = (
             f"Berikan {feedback_num} poin evaluasi teknis singkat (1-2 kalimat per poin) "
-            "untuk penari Tari Lenggang Nyai (Betawi) berdasarkan deteksi pose tubuh (tanpa wajah). "
+            "untuk penari bungong jeumpa berdasarkan deteksi pose tubuh (tanpa wajah). "
             "Setiap poin mewakili penilaian untuk satu segmen gerakan. "
             "Fokus pada: keluwesan pinggul, kewer tangan, kuda-kuda (mendak), dan power hentakan kaki. "
             "Output: Hanya daftar kalimat dipisahkan baris baru."
