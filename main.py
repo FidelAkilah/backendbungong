@@ -26,7 +26,7 @@ async def give_score():
     try:
         # 1. SCORE LOGIC (FIXED 15 ITEMS) -- UPDATED RANGE 5-7%
         # Mengubah range random menjadi 5 sampai 7
-        scores_array = [random.randint(5, 7) for _ in range(15)]
+        scores_array = [random.randint(90, 100) for _ in range(15)]
         
         average_score = round(sum(scores_array) / 15, 1)
 
